@@ -1,0 +1,42 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "xf86conf",
+      "camelcase": "Xf86conf",
+      "title": "Xf86conf",
+      "scope": "source.xf86conf",
+      "file-types": [
+        "xf86conf"
+      ],
+      "injection-regex": "^xf86conf$",
+      "class-name": "TreeSitterXf86conf"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "🌲👨 xf86conf grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Wu",
+        "email": "wuzhenyu@ustc.edu",
+        "url": "https://github.com/Freed-Wu"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/Freed-Wu/tree-sitter-xf86conf",
+      "funding": "https://github.com/Freed-Wu/tree-sitter-xf86conf"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "java": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": true
+  }
+}
