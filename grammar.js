@@ -8,7 +8,7 @@ export default grammar({
   rules: {
     file: $ => repeat($.section),
 
-    comment: $ => seq('#', alias(/[^\n]*/, $.body)),
+    comment: $ => seq('#', /\s*/, alias(/[^\n]*/, $.body)),
 
     section: $ => seq(
       'Section',
