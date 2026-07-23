@@ -1,0 +1,35 @@
+===
+conf
+===
+Section "InputClass"
+  Identifier "Keyboard catchall"
+  MatchIsKeyboard "on"
+  Option "XkbModel" "pc104"
+  Option "XkbLayout" "us"
+  Option "XkbOptions" "terminate:ctrl_alt_bksp"
+  
+EndSection
+---
+(file
+  (section
+    (section_name
+      (name))
+    (body
+      (directive
+        (identifier)
+        (string))
+      (directive
+        (identifier)
+        (string))
+      (directive
+        (identifier)
+        (string)
+        (string))
+      (directive
+        (identifier)
+        (string)
+        (string))
+      (directive
+        (identifier)
+        (string)
+        (string)))))
